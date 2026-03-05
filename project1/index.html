@@ -13,8 +13,9 @@
 </head>
 
 <body>
-    <h1>All counties in bangladesh </h1>
-    <div id="city" style="background-color: lightgrey;">
+    here we learn about div, button and other html tags 
+     <h1>All counties in bangladesh </h1>
+    <div id="city" style="background-color: lightgrey;color: darkblue;width: 300px;">
         <h2>Dhaka</h2>
         <ul>
             <li>Gulshan</li>
@@ -24,7 +25,7 @@
         <button type="button">want to visit</button>
     </div>
 
-    <div id="city" style="background-color: lightgrey;">
+    <div id="city" style="background-color: lightgrey;color:darkblue;width: 300px;">
         <h2>Chittagong</h2>
         <ul>
             <li>Pahartali</li>
@@ -33,6 +34,53 @@
         </ul>
         <button type="button">want to visit</button>
     </div>
+    
+
+    <!-- now we learn how to create form-->
+
+    <h3 style="background-color: gray;text-align: center;">Tour registration form</h3>
+    <a href="https://icons8.com/">visit page</a>
+    <fieldset style="background-color: lightgray; width: 400px;" >
+        <legend>Register for tour</legend>
+        <form action="https://icons8.com/" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+            <label for="date">date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="dhaka">Dhaka</option>
+                <option value="chittagong">Chittagong</option>
+                <option value="sylhet">Sylhet</option>
+            </select><br><br>
+
+            <label for="salary">Salary:</label>
+            <input type="range" id="salary" name="salary" required min="10K" max="100k"><br><br>
+
+            <label for="Your Gender">Your Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <input type="radio" id="female" name="gender" value="female">
+            <input type="radio" id="other" name="gender" value="other"><br><br>
+
+            <label for="T-shirt">T-shirt color:</label>
+            <input type="color" id="t-shirt" name="t-shirt" required><br><br>
+
+            <label for="date">Tour Date:</label>
+            <input type="date" id="date" name="date" disabled value="2026-01-23"><br><br>
+
+            <label for="opinion">Write your opinion:</label>
+            <textarea id="opinion" name="opinion" placeholder="Enter your opinion" cols="40" rows="5"></textarea><br><br>  
+
+            <input type="submit" value="Register">
+    </fieldset>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.9008600456564!2d90.424831375805!3d23.822124178621575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c711d13bbec7%3A0xc47f7c3e8e2263f2!2sAmerican%20International%20University%20-%20Bangladesh%20(AIUB)!5e0!3m2!1sen!2sbd!4v1772735720552!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </body>
 
 </html>
