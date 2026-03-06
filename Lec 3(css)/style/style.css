@@ -1,0 +1,44 @@
+        body {
+            font-family: Arial, sans-serif;
+
+            line-height: 1;
+            margin: 20px;
+            background-color: #faeeee;
+        }
+
+        #text1 {
+            font-size: 18px;
+            color: #581cd9;
+            background-color: #6666;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+        .written {
+            color: #d9534f;
+            font-weight: bold;
+            background-color: #581cd9;
+        }
+        .mcq {
+            color: #5bc0de;
+            font-style: italic;
+            background-color: #d9534f;
+        }
+    *{
+        border: #333 solid 1px;
+        
+    }
